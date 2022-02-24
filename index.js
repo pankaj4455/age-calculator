@@ -16,10 +16,10 @@ var year=now.getFullYear();
 var month=now.getMonth();
 var day=now.getDate();
 var age=year-dyaer;
-if(age){
+var m=month-dmonth;    
+if(m<0||m==0 && day<dday){
     age--;
-    console.log(age);
-}
+ }
 var months;
 if(month>dmonth){
     months=month-dmonth;
