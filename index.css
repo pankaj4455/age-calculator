@@ -1,0 +1,40 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-color: antiquewhite;
+    
+}
+.container{ 
+margin-top: 20px;
+    display: flex;
+    justify-content: center;
+
+    
+
+
+}
+ .child{
+     width: 500px;
+     height: 300px;
+     background-color:darkgray;
+     text-align: center
+     
+}
+.child h1{
+    text-align: center;
+}
+#buttn{
+    margin-top: 10px;
+    margin-left: 75px;
+    }
+#result{
+    color: white;
+}
+@media (max-width:676px){
+    .container{
+        width: 100%;
+        display: flex;
+    }
+}
