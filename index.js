@@ -35,6 +35,6 @@ if(day>dday){
 else{
     days=day+30-dday;
 }
-document.getElementById('result').innerHTML=` ${age} age ${months} month ${days} day `;
+document.getElementById('result').innerHTML=` ${age} year ${months} month ${days} day `;
 
 }
